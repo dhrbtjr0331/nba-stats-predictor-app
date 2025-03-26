@@ -1,0 +1,43 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# VSCode and Pytest cache
+.vscode/
+.pytest_cache/
+
+# Environment
+env/
+.venv/
+ENV/
+env.bak/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+nba_stats.db
+
+# Models and artifacts
+models/latest_model.pkl
+
+# Logs
+logs/
+
+# Output files or test artifacts
+*.log
+*.tmp
+*.out
+
+# Notebook outputs (optional if you want clean version control)
+notebooks/*.ipynb
+!notebooks/tester.ipynb  # Uncomment if you want to keep this tracked
