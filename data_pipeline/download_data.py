@@ -1,7 +1,7 @@
 import time
 from database import Database
 from fetch_data import DataFetcher
-from prerprocess_data import FeatureEngineer
+from preprocess_data import FeatureEngineer
 
 def main():
     # Initialize Database and DataFetcher
